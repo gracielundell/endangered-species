@@ -1,0 +1,255 @@
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+ .images img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 20px black;
+  margin-top: 50px
+}
+
+.title {
+  text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.p {
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  padding-bottom: 25px;
+
+}
+
+div p {
+  text-align: center;
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+.masthead p {
+  background: rgba(235, 160, 86, .5);
+  width: 100%
+
+}
+
+.images img:hover {
+  border: 2px solid black;
+}
+
+#argali {
+  position: absolute;
+  top: 190px;
+  left: 1100px;
+}
+
+.argali {
+  position: absolute;
+  top: 330px;
+  left: 1050px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: none;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+}
+
+#argali:hover + .argali {
+  display: block;
+}
+
+#ayeaye {
+  position: absolute;
+  top: 580px;
+  left: 1080px;
+}
+
+.ayeaye {
+  position: absolute;
+  top: 710px;
+  left: 1080px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: none;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+}
+
+#ayeaye:hover + .ayeaye {
+  display: block;
+}
+
+#bluewhale {
+  position: absolute;
+  top: 200px;
+  left: 650px;
+}
+
+.bluewhale {
+  display: none;
+  position: absolute;
+  top: 330px;
+  left: 580px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+}
+
+#bluewhale:hover + .bluewhale {
+  display: block;
+}
+
+#margay {
+  position: absolute;
+  top: 500px;
+  left: 525px;
+}
+
+.margay {
+  position: absolute;
+  top: 630px;
+  left: 525px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+  display: none;
+}
+
+#margay:hover + .margay {
+  display: block;
+}
+
+#monkseal {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+
+.monkseal {
+  position: absolute;
+  top: 375px;
+  left: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+  display: none;
+}
+
+#monkseal:hover + .monkseal {
+  display: block;
+}
+
+#ocelot {
+  position: absolute;
+  top: 330px;
+  left: 400px;
+}
+
+.ocelot {
+  position: absolute;
+  top: 460px;
+  left: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+  display: none;
+}
+
+#ocelot:hover + .ocelot {
+  display: block;
+}
+
+#pangolin {
+  position: absolute;
+  top: 220px;
+  left: 1260px;
+}
+
+.pangolin {
+  position: absolute;
+  top: 360px;
+  left: 1200px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+  display: none;
+}
+
+#pangolin:hover + .pangolin {
+  display: block;
+}
+
+#proboscis {
+  position: absolute;
+  top: 470px;
+  left: 1420px;
+}
+
+.proboscis {
+  position: absolute;
+  top: 620px;
+  left: 1420px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+  display: none;
+}
+
+#proboscis:hover + .proboscis {
+  display: block;
+}
+
+#sandcat {
+  position: absolute;
+  top: 250px;
+  left: 900px;
+}
+
+.sandcat {
+  position: absolute;
+  top: 390px;
+  left: 900px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+  display: none;
+}
+
+#sandcat:hover + .sandcat {
+  display: block;
+}
+
+#tarsier {
+  position: absolute;
+  top: 360px;
+  left: 1420px;
+}
+
+.tarsier {
+  position: absolute;
+  top: 410px;
+  left: 1520px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgba(235, 160, 86, .5);
+  padding: 10px;
+  display: none;
+}
+
+#tarsier:hover + .tarsier {
+  display: block;
+}
