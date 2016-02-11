@@ -16,15 +16,20 @@
 }
 
 .title {
+  font-family: 'Alegreya Sans', sans-serif;
   text-align: center;
-    font-family: 'Alegreya Sans', sans-serif;
+  font-size: 30px;
+  background: #ff9966;
+  margin-top: -40px;
+  width: 100%
+  margin-left: -28px;
+  padding-right: 28px;
 }
 
 .p {
   text-align: center;
   font-family: 'Alegreya Sans', sans-serif;
   padding-bottom: 25px;
-
 }
 
 div p {
@@ -37,7 +42,6 @@ div p {
 .masthead p {
   background: rgba(235, 160, 86, .5);
   width: 100%
-
 }
 
 .images img:hover {
@@ -46,13 +50,13 @@ div p {
 
 #argali {
   position: absolute;
-  top: 190px;
+  top: 250px;
   left: 1100px;
 }
 
 .argali {
   position: absolute;
-  top: 330px;
+  top: 380px;
   left: 1050px;
   border: 2px solid black;
   border-radius: 5px;
@@ -109,14 +113,14 @@ div p {
 
 #margay {
   position: absolute;
-  top: 500px;
+  top: 550px;
   left: 525px;
 }
 
 .margay {
   position: absolute;
-  top: 630px;
-  left: 525px;
+  top: 680px;
+  left: 475px;
   border: 2px solid black;
   border-radius: 5px;
   background: rgba(235, 160, 86, .5);
@@ -130,14 +134,14 @@ div p {
 
 #monkseal {
   position: absolute;
-  top: 250px;
-  left: 100px;
+  top: 350px;
+  left: 80px;
 }
 
 .monkseal {
   position: absolute;
-  top: 375px;
-  left: 100px;
+  top: 480px;
+  left: 50px;
   border: 2px solid black;
   border-radius: 5px;
   background: rgba(235, 160, 86, .5);
@@ -193,13 +197,13 @@ div p {
 
 #proboscis {
   position: absolute;
-  top: 470px;
-  left: 1420px;
+  top: 500px;
+  left: 1450px;
 }
 
 .proboscis {
   position: absolute;
-  top: 620px;
+  top: 630px;
   left: 1420px;
   border: 2px solid black;
   border-radius: 5px;
@@ -214,13 +218,13 @@ div p {
 
 #sandcat {
   position: absolute;
-  top: 250px;
+  top: 350px;
   left: 900px;
 }
 
 .sandcat {
   position: absolute;
-  top: 390px;
+  top: 480px;
   left: 900px;
   border: 2px solid black;
   border-radius: 5px;
